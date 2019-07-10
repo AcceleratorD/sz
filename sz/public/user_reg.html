@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<meta name="viewport" content="width=device-width,inital-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/currency.css"/>
+</head>
+<body>
+	<div>
+		<div class="container">
+			<!-- header -->
+			<div class="d-flex justify-content-end mt-4">
+				<div class="mr-3"><a href="./index.html">首页</a></div>
+				<div class="mr-3"><a href="./user_login.html">登录</a></div>
+				<div class="mr-3"><a href="#">注册</a></div>
+			</div>
+			<div class="d-flex">
+				<div class="mt-3"><img src="picture/login/logo_school.png" alt=""/></div>
+				<div class="mt-3"><img src="picture/login/logo_jw.png" alt=""/></div>
+			</div>
+			<!--body-->
+			<div class="body mt-4 row">
+				<!--left-->
+				<div class="left col-6">
+					<img src="picture/login/login_pic.png" alt=""/>
+				</div>
+				<!--right-->
+				<div class="right col-6">
+					<!--表格主体-->
+					<table class="mt-4">
+						<thead>
+							<tr>
+								<td colspan="2">
+									<h5>用 户 注 册<span> / LOGIN</span></h5>
+								</td>
+							</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>用户名：</td>
+							<td><input type="text" id="uname"/></td>
+						</tr>
+						<tr>
+							<td>密  码：</td>
+							<td><input type="password" id="upwd"/></td>
+						</tr>
+						<tr>
+							<td>手 机：</td>
+							<td><input type="text" id="phone"/></td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<input type="radio" name="lei" value="bumen"/>部门
+								<input type="radio" name="lei" value="teacher"/>教师
+								<input type="radio" name="lei" value="student" checked/>学生
+								<input type="radio" name="lei" value="fangke"/>访客
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<button class="btn btn-primary ml-3 mr-5" onclick="reg()">注册</button>
+								<button class="btn btn-primary" onclick="qc()">重置</button>
+							</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<!--footer-->
+			<div class="footer">
+				开发单位: <a href="#">正方软件股份有限公司</a> 联系电话:0571-89902828
+			</div>
+		</div>
+	</div>
+	<script>
+		function reg(){
+			var lei=document.querySelector("input:checked");
+			var xhr=new XMLHttpRequest();
+			xhr.onreadystatechange=function(){
+				if(xhr.readyState==4&&xhr.status==200){
+					var result=xhr.responseText;
+					alert(result);
+				}
+			}
+			xhr.open("post","/user/reg_post",true);
+			xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+			var formdata="uname="+uname.value+"&upwd="+upwd.value+"&phone="+phone.value+"&lei="+lei.value;
+			xhr.send(formdata);
+		}
+        function qc(){
+            var inputs=document.querySelectorAll("[id=uname],[id=upwd],[id=phone]");
+            console.log(inputs);
+            for(var i=0;i<inputs.length;i++){
+                inputs[i].value="";
+            }
+        }
+	</script>
+</body>
+</html>

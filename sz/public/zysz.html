@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>专业设置-绍兴职业技术学院</title>
+    <meta name="viewport" content="width=device-width,inital-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/comm.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/dropdown.css"/>
+    <link rel="stylesheet" href="css/zysz.css"/>
+</head>
+<body>
+<!--header-->
+<div class="bg-ya-red pt-3 header">
+    <div class="container">
+        <!--第一行 含logo-->
+        <div class="row mb-4 my-display-none-sm">
+            <!--左-->
+            <div class="col-6">
+                <a href="#"><img src="picture/header/logo.png" alt=""/></a>
+            </div>
+            <!--右-->
+            <div class="col-6">
+                <ul class="nav justify-content-end mt-4">
+                    <li class="nav-item">
+                        <input class="search" type="button"/>
+                    </li>
+                    <li class="nav-item pl-3">
+                        <a class="nav-link p-0 text-white" href="#">加入收藏</a>
+                    </li>
+                    <li class="nav-item pl-3">
+                        <a class="nav-link p-0 text-white" href="#">设为首页</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--第二行 水平导航栏 下拉菜单 折叠导航栏-->
+        <div class="navbar p-0 navbar-expand-lg navbar-dark">
+            <a class="navbar-brand my-display-none-lg" href="#">
+                <img src="picture/header/logo.png" alt=""/>
+            </a>
+            <!--按钮，按钮上有三条线，折叠的激发按钮-->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#content">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="content" class="collapse navbar-collapse">
+                <ul class="navbar-nav bg-ya-red w-100 p-0 m-0 curr">
+                    <li class="nav-item">
+                        <!--当前页面对应选项-->
+                        <a class="nav-link text-white py-3 px-0" href="./index.html">首页</a>
+                    </li>
+                    <li class="py-3 px-1 my-shu-color my-display-none-sm">|</li>
+                    <li class="nav-item">
+                        <!--大屏以下情况下的菜单-->
+                        <a class="nav-link text-white py-3 px-0  my-display-none-lg" href="./xxjj.html">学校概况</a>
+                        <!--大屏下拉菜单-->
+                        <div class="dropdown my-display-none-sm">
+                            <a class="nav-link text-white py-3 px-0 down" href="./xxjj.html">学校概况</a>
+                            <ul class="dropdown-menu m-0 p-0 bg-ya-red">
+                                <li><a class="text-white py-3 px-0" href="./xxjj.html">学校简介</a></li>
+                                <li><a class="text-white py-3 px-0" href="./zzjg.html">组织机构</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="py-3 px-1 my-shu-color my-display-none-sm">|</li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-3 px-0  my-display-none-lg" href="./xxxw.html">学校新闻</a>
+                        <div class="dropdown my-display-none-sm">
+                            <a class="nav-link text-white py-3 px-0 down" href="./xxxw.html">学校新闻</a>
+                            <ul class="dropdown-menu m-0 p-0 bg-ya-red">
+                                <li><a class="text-white py-3 px-0" href="./xxdt.html">学校动态</a></li>
+                                <li><a class="text-white py-3 px-0" href="./sjsz.html">视觉绍职</a></li>
+                                <li><a class="text-white py-3 px-0" href="./mtbd.html">媒体报道</a></li>
+                                <li><a class="text-white py-3 px-0" href="./wsjb.html">网上金榜</a></li>
+                                <li><a class="text-white py-3 px-0" href="./tzgg.html">通知公告</a></li>
+                                <li><a class="text-white py-3 px-0" href="./zbxx.html">招标信息</a></li>
+                                <li><a class="text-white py-3 px-0" href="./kyjfgk.html">科研经费公开</a></li>
+                                <li><a class="text-white py-3 px-0" href="./rczp.html">人才招聘</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="py-3 px-1 my-shu-color my-display-none-sm">|</li>
+                    <li class="nav-item">
+                        <a class="bg-checked nav-link text-white py-3 px-0" href="./zysz.html">专业设置</a>
+                    </li>
+                    <li class="py-3 px-1 my-shu-color my-display-none-sm">|</li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-3 px-0  my-display-none-lg" href="./zsw.html">招生就业</a>
+                        <div class="dropdown my-display-none-sm">
+                            <a class="nav-link text-white py-3 px-0 down" href="./zsw.html">招生就业</a>
+                            <ul class="dropdown-menu m-0 p-0 bg-ya-red">
+                                <li><a class="text-white py-3 px-0" href="./zsw.html" target="_blank">招生网</a></li>
+                                <li><a class="text-white py-3 px-0" href="./jyw.html" target="_blank">就业网</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="py-3 px-1 my-shu-color my-display-none-sm">|</li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-3 px-0  my-display-none-lg" href="./jpkc.html">教学研究</a>
+                        <div class="dropdown my-display-none-sm">
+                            <a class="nav-link text-white py-3 px-0 down" href="./jpkc.html">教学科研</a>
+                            <ul class="dropdown-menu m-0 p-0 bg-ya-red">
+                                <li><a class="text-white py-3 px-0" href="./jwc.html" target="_blank">教务处</a></li>
+                                <li><a class="text-white py-3 px-0" href="./jpkc.html">精品课程</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="py-3 px-1 my-shu-color my-display-none-sm">|</li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-3 px-0" href="./xsc.html">学生工作</a>
+                    </li>
+                    <li class="py-3 px-1 my-shu-color my-display-none-sm">|</li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-3 px-0  my-display-none-lg" href="./gzdt.html">绍职党建</a>
+                        <div class="dropdown my-display-none-sm">
+                            <a class="nav-link text-white py-3 px-0 down" href="./gzdt.html">绍职党建</a>
+                            <ul class="dropdown-menu m-0 p-0 bg-ya-red">
+                                <li><a class="text-white py-3 px-0" href="./sxll.html">思想理论</a></li>
+                                <li><a class="text-white py-3 px-0" href="./gzdt.html">工作动态</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="py-3 px-1 my-shu-color my-display-none-sm">|</li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-3 px-0" href="./xyzc.html">校友之窗</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            (function(){
+                var downs=document.getElementsByClassName("down");
+                var caidans=document.getElementsByClassName("dropdown-menu");
+                for(var a=0;a<downs.length;a++){
+                    var down=downs[a];
+                    let caidan=caidans[a];
+                    down.onmousemove=caidan.onmousemove=function(){
+                        caidan.style.display="block";
+                    }
+                    down.onmouseout=caidan.onmouseout=function(){
+                        caidan.style.display="none";
+                    }
+                }
+            })()
+        </script>
+    </div>
+</div>
+<!--body-->
+<div class="container">
+    <!--banner-->
+    <img class="w-100" src="picture/xxxw/listbanner1.jpg" alt=""/>
+    <!--line1 标头-->
+    <div class="f1 row">
+        <!--left-->
+        <div class="col-lg-3 my-display-none-sm">
+            <h4 class="bg-ya-red text-white text-center mb-0">专业设置</h4>
+        </div>
+        <!--right-->
+        <div class="right col-lg-9 col-sm-12">
+            <div class="d-flex justify-content-between">
+                <h6 class="mb-0 my-display-none-sm">专业设置</h6>
+                <div class="dropdown my-display-none-lg">
+                    <h6 class="mb-0 dropdown-toggle"  data-toggle="dropdown">专业设置</h6>
+                    <ul class="dropdown-menu m-0 p-0">
+                        <li><a class="py-3 px-0" href="./zysz.html">计算机应用技术</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">计算机网络技术</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">计算机信息管理</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">软件技术</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">物联网应用技术</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">电子商务技术</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">电子商务</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">商务英语</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">国际贸易实务</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">会计</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">社区管理服务</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">金融管理</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">应用电子技术</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">机电一体化技术</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">机械设计与制造</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">汽车电子技术</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">数控技术</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">汽车营销与服务</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">工业机器人技术</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">建筑工程技术</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">工程造价</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">建筑工程管理</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">室内艺术设计</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">数字媒体艺术设计</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">动漫设计</a></li>
+                        <li><a class="py-3 px-0" href="./zysz.html">护理</a></li>
+                    </ul>
+                </div>
+                <ul class="breadcrumb bg-white mt-2 mb-0 p-0">
+                    <li class="breadcrumb-item"><a href="./index.html">首页</a></li>
+                    <li class="breadcrumb-item"><a href="./xxjj.html">专业设置</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--f2-->
+    <div class="f2 row">
+        <!--left-->
+        <div class="left col-lg-3 my-display-none-sm">
+            <ul class="pl-0">
+                <li class="checked"><a href="./zysz.html">计算机应用技术</a></li>
+                <li><a href="./zysz.html">计算机网络技术</a></li>
+                <li><a href="./zysz.html">计算机信息管理</a></li>
+                <li><a href="./zysz.html">软件技术</a></li>
+                <li><a href="./zysz.html">物联网应用技术</a></li>
+                <li><a href="./zysz.html">电子商务技术</a></li>
+                <li><a href="./zysz.html">电子商务</a></li>
+                <li><a href="./zysz.html">商务英语</a></li>
+                <li><a href="./zysz.html">国际贸易实务</a></li>
+                <li><a href="./zysz.html">会计</a></li>
+                <li><a href="./zysz.html">社区管理服务</a></li>
+                <li><a href="./zysz.html">金融管理</a></li>
+                <li><a href="./zysz.html">应用电子技术</a></li>
+                <li><a href="./zysz.html">机电一体化技术</a></li>
+                <li><a href="./zysz.html">机械设计与制造</a></li>
+                <li><a href="./zysz.html">汽车电子技术</a></li>
+                <li><a href="./zysz.html">数控技术</a></li>
+                <li><a href="./zysz.html">汽车营销与服务</a></li>
+                <li><a href="./zysz.html">工业机器人技术</a></li>
+                <li><a href="./zysz.html">建筑工程技术</a></li>
+                <li><a href="./zysz.html">工程造价</a></li>
+                <li><a href="./zysz.html">建筑工程管理</a></li>
+                <li><a href="./zysz.html">室内艺术设计</a></li>
+                <li><a href="./zysz.html">数字媒体艺术设计</a></li>
+                <li><a href="./zysz.html">动漫设计</a></li>
+                <li><a href="./zysz.html">护理</a></li>
+
+            </ul>
+        </div>
+        <!--right-->
+        <div class="right col-lg-9 col-sm-12">
+            <!--内容主体-->
+            <table>
+                <caption>专业设置</caption>
+                <tbody>
+                    <tr>
+                        <td>所属学院</td>
+                        <td>专业名称</td>
+                        <td>专业特点</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="7">信息工程学院</td>
+                        <td>
+                            <a href="./jsjyyjs.html">计算机应用技术</a>
+                        </td>
+                        <td>
+                            <div>浙江省重点专业</div>
+                            <div>浙江省优势专业</div>
+                            <div>省级示范性实训基地（计算机技术）</div>
+                            <div>市级信息技术创新创业示范实践基地</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="./jsjwljs.html">计算机网络技术</a>
+                        </td>
+                        <td>
+                            <div>浙江省优势专业</div>
+                            <div>浙江省特色专业</div>
+                            <div>省级示范性实训基地（计算机技术）</div>
+                            <div>市级信息技术创新创业示范实践基地</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="./jsjxxjs.html">计算机信息技术</a>
+                        </td>
+                        <td>
+                            <div>省级示范性实训基地（计算机技术）</div>
+                            <div>市级信息技术创新创业示范实践基地</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="./rjjs.html">软件技术</a>
+                        </td>
+                        <td>
+                            <div>国家高技能人才培养紧缺专业</div>
+                            <div>绍兴市重点专业</div>
+                            <div>省级示范性实训基地（计算机技术）</div>
+                            <div>市级信息技术创新创业示范实践基地</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="./wlwyyjs.html">物联网应用技术</a>
+                        </td>
+                        <td>
+                            <div>省级示范性实训基地（计算机技术）</div>
+                            <div>市级信息技术创新创业示范实践基地</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="./dzswjs.html">电子商务技术</a>
+                        </td>
+                        <td>
+                            <div>省级示范性实训基地（计算机技术）</div>
+                            <div>市级信息技术创新创业示范实践基地</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>大数据技术与应用</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="6">范蠡商学院</td>
+                        <td>
+                            <a href="./dzsw.html">电子商务</a>
+                        </td>
+                        <td>
+                            <div>浙江省特色专业</div>
+                            <div>市级示范实训基地（商贸服务）</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="./swyy.html">商务英语</a>
+                        </td>
+                        <td>
+                            <div>浙江省特色专业</div>
+                            <div>绍兴市特色专业</div>
+                            <div>市级示范实训基地（商贸服务）</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="./gjmysw.html">国际贸易实务</a>
+                        </td>
+                        <td>
+                            <div>绍兴市重点专业</div>
+                            <div>市级示范实训基地（商贸服务）</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="./kj.html">会计</a>
+                        </td>
+                        <td>
+                            <div>市级示范实训基地（商贸服务）</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="./sqglyfw.html">社区管理与服务</a>
+                        </td>
+                        <td>
+                            <div>市级示范实训基地（商贸服务）</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="./jrgl.html">经融管理</a>
+                        </td>
+                        <td>
+                            <div>市级示范实训基地（商贸服务）</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="9">机电工程学院</td>
+                        <td><a href="./yydzjs.html">应用电子技术</a></td>
+                        <td>
+                            <div>浙江省特色专业</div>
+                            <div>绍兴市重点专业</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="./jdythjs.html">机电一体化技术</a>
+                        </td>
+                        <td>
+                            <div>中央财政支持职业教育实训基地项目专业</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="./jxsjyzz.html">机械设计与制造</a>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="./jcdzjs.html">汽车电子技术</a>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="./skjs.html">数控技术</a>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="./qcyxyfw.html">汽车营销与服务</a>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="./csgdjtyygl.html">城市轨道交通运营管理</a>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="./gyjqrjs.html">工业机器人技术</a>
+                        </td>
+                        <td>
+                            <div>浙江省特色专业</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="./csgdjtjdjs.html">城市轨道交通机电技术</a>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="6">建筑与设计艺术学院</td>
+                        <td><a href="./jzgcjs.html">建筑工程技术</a></td>
+                        <td>
+                            <div>浙江省特色专业</div>
+                            <div>市级示范实训基地（建筑技术）</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="./gczj.html">工程造价</a></td>
+                        <td>
+                            <div>市级示范实训基地（建筑技术）</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="./jzgcgl.html">建筑工程管理</a></td>
+                        <td>
+                            <div>市级示范实训基地（建筑技术）</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="./snyssj.html">室内艺术设计</a></td>
+                        <td>
+                            <div>市级示范实训基地（艺术设计与传媒）</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="./szmtyssj.html">数字媒体艺术设计</a></td>
+                        <td>
+                            <div>绍兴市重点专业</div>
+                            <div>市级示范实训基地（艺术设计与传媒）</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="./dmsj.html">动漫设计</a></td>
+                        <td>
+                            <div>市级示范实训基地（艺术设计与传媒）</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">护理学院</td>
+                        <td><a href="./hl.html">护理</a></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="./zc.html">助产</a></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="1">阳明学院</td>
+                        <td><a href="./zqjy.html">早期教育</a></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<footer>
+    <iframe src="footer.html" frameborder="0" scrolling="no" class="my_footer"></iframe>
+</footer>
+</body>
+</html>

@@ -1,0 +1,37 @@
+/*line1*/
+/*center*/
+.footer .line-one a{
+    line-height: 36px;
+    display: block;
+    color: #cdced5;
+    font-weight: bold;
+}
+/*right*/
+.footer .line-one{text-align: center}
+.footer .line-one .right p{color:#cdced5;}
+
+/*line2*/
+.footer .sjfw>img{
+    height:85px;
+}
+.footer .line-two p{
+    line-height: 24px;
+    color: #b8b9bb;
+    font-size: 13px;
+}
+/*Ã½Ìå²éÑ¯*/
+@media screen and (max-width: 991px){
+    .footer .line-one .center>ul{
+        justify-content: center;
+        padding-left:40px !important;
+        padding-right:40px !important;
+    }
+    .footer .szgw{
+        padding-left:4rem;
+    }
+    .footer .sjfw{
+        padding-right:4rem;
+    }
+    .footer .line-two{text-align: center;}
+    .footer .my-display-none-md{display: none !important;}
+}

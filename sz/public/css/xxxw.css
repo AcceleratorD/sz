@@ -1,0 +1,9 @@
+.f2>.right>div>ul>li{
+    line-height: 36px;
+    font-size: 15px;
+    color: #878787;
+    border-bottom: 1px dashed #e5e5e5;
+    overflow: hidden;
+}
+.f2>.right>div>ul>li>a{color: #000;}
+.f2>.right>div>ul>li>a:hover{color: #712325;}

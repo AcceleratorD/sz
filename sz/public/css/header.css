@@ -1,0 +1,45 @@
+/*header*/
+.header .search{
+    display: block;
+    width: 30px;
+    background: url(../picture/gicon6.png) no-repeat center center;
+    border: 0;
+}
+/*媒体查询 假面包屑导航*/
+@media screen and (min-width:1200px){
+    .header .curr>li.nav-item{ width:10.15%; }
+    .header .dropdown-menu{ min-width:112.66px; }
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+    .header .curr>li.nav-item{ width:9.99%; }
+    .header .dropdown-menu{ min-width:94px; }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .header .curr>li.nav-item{ width:9.6%; }
+}
+@media screen and (max-width:767px){
+    .header .curr>li.nav-item{ width:23ne;}
+}
+/*下拉导航栏*/
+.header .curr>li.nav-item{
+    text-align: center;
+}
+/*竖线的样式*/
+.header .my-shu-color{color:#8C4E51;}
+
+.header .curr>li a{font-size: 1rem;}
+.header .curr>li>div a{
+    width:100%;
+    display:inline-block;
+    text-decoration: none;
+}
+.header .curr a:hover{
+    /*border-top: 2px solid #ebb726;*/
+    background-color: #923331;
+}
+/*下拉菜单*/
+.header .dropdown-menu {
+    border-radius:0;
+    text-align:center;
+    border-top:0;
+}

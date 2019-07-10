@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>学校动态-绍兴职业技术学院</title>
+    <meta name="viewport" content="width=device-width,inital-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/comm.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/dropdown.css"/>
+    <link rel="stylesheet" href="css/xxxw.css"/>
+</head>
+<body>
+<!--header-->
+<div class="bg-ya-red pt-3 header">
+    <div class="container">
+        <!--第一行 含logo-->
+        <div class="row mb-4 my-display-none-sm">
+            <!--左-->
+            <div class="col-6">
+                <a href="#"><img src="picture/header/logo.png" alt=""/></a>
+            </div>
+            <!--右-->
+            <div class="col-6">
+                <ul class="nav justify-content-end mt-4">
+                    <li class="nav-item">
+                        <input class="search" type="button"/>
+                    </li>
+                    <li class="nav-item pl-3">
+                        <a class="nav-link p-0 text-white" href="#">加入收藏</a>
+                    </li>
+                    <li class="nav-item pl-3">
+                        <a class="nav-link p-0 text-white" href="#">设为首页</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--第二行 水平导航栏 下拉菜单 折叠导航栏-->
+        <div class="navbar p-0 navbar-expand-lg navbar-dark">
+            <a class="navbar-brand my-display-none-lg" href="#">
+                <img src="picture/header/logo.png" alt=""/>
+            </a>
+            <!--按钮，按钮上有三条线，折叠的激发按钮-->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#content">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="content" class="collapse navbar-collapse">
+                <ul class="navbar-nav bg-ya-red w-100 p-0 m-0 curr">
+                    <li class="nav-item">
+                        <!--当前页面对应选项-->
+                        <a class="nav-link text-white py-3 px-0" href="./index.html">首页</a>
+                    </li>
+                    <li class="py-3 px-1 my-shu-color my-display-none-sm">|</li>
+                    <li class="nav-item">
+                        <!--大屏以下情况下的菜单-->
+                        <a class="nav-link text-white py-3 px-0  my-display-none-lg" href="./xxjj.html">学校概况</a>
+                        <!--大屏下拉菜单-->
+                        <div class="dropdown my-display-none-sm">
+                            <a class="nav-link text-white py-3 px-0 down" href="./xxjj.html">学校概况</a>
+                            <ul class="dropdown-menu m-0 p-0 bg-ya-red">
+                                <li><a class="text-white py-3 px-0" href="./xxjj.html">学校简介</a></li>
+                                <li><a class="text-white py-3 px-0" href="./zzjg.html">组织机构</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="py-3 px-1 my-shu-color my-display-none-sm">|</li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-3 px-0  my-display-none-lg" href="./xxxw.html">学校新闻</a>
+                        <div class="dropdown my-display-none-sm">
+                            <a class="bg-checked nav-link text-white py-3 px-0 down" href="./xxxw.html">学校新闻</a>
+                            <ul class="dropdown-menu m-0 p-0 bg-ya-red">
+                                <li><a class="text-white py-3 px-0" href="./xxdt.html">学校动态</a></li>
+                                <li><a class="text-white py-3 px-0" href="./sjsz.html">视觉绍职</a></li>
+                                <li><a class="text-white py-3 px-0" href="./mtbd.html">媒体报道</a></li>
+                                <li><a class="text-white py-3 px-0" href="./wsjb.html">网上金榜</a></li>
+                                <li><a class="text-white py-3 px-0" href="./tzgg.html">通知公告</a></li>
+                                <li><a class="text-white py-3 px-0" href="./zbxx.html">招标信息</a></li>
+                                <li><a class="text-white py-3 px-0" href="./kyjfgk.html">科研经费公开</a></li>
+                                <li><a class="text-white py-3 px-0" href="./rczp.html">人才招聘</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="py-3 px-1 my-shu-color my-display-none-sm">|</li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-3 px-0" href="./zysz.html">专业设置</a>
+                    </li>
+                    <li class="py-3 px-1 my-shu-color my-display-none-sm">|</li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-3 px-0  my-display-none-lg" href="./zsw.html">招生就业</a>
+                        <div class="dropdown my-display-none-sm">
+                            <a class="nav-link text-white py-3 px-0 down" href="./zsw.html">招生就业</a>
+                            <ul class="dropdown-menu m-0 p-0 bg-ya-red">
+                                <li><a class="text-white py-3 px-0" href="./zsw.html" target="_blank">招生网</a></li>
+                                <li><a class="text-white py-3 px-0" href="./jyw.html" target="_blank">就业网</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="py-3 px-1 my-shu-color my-display-none-sm">|</li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-3 px-0  my-display-none-lg" href="./jpkc.html">教学研究</a>
+                        <div class="dropdown my-display-none-sm">
+                            <a class="nav-link text-white py-3 px-0 down" href="./jpkc.html">教学科研</a>
+                            <ul class="dropdown-menu m-0 p-0 bg-ya-red">
+                                <li><a class="text-white py-3 px-0" href="./jwc.html" target="_blank">教务处</a></li>
+                                <li><a class="text-white py-3 px-0" href="./jpkc.html">精品课程</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="py-3 px-1 my-shu-color my-display-none-sm">|</li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-3 px-0" href="./xsc.html">学生工作</a>
+                    </li>
+                    <li class="py-3 px-1 my-shu-color my-display-none-sm">|</li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-3 px-0  my-display-none-lg" href="./gzdt.html">绍职党建</a>
+                        <div class="dropdown my-display-none-sm">
+                            <a class="nav-link text-white py-3 px-0 down" href="./gzdt.html">绍职党建</a>
+                            <ul class="dropdown-menu m-0 p-0 bg-ya-red">
+                                <li><a class="text-white py-3 px-0" href="./sxll.html">思想理论</a></li>
+                                <li><a class="text-white py-3 px-0" href="./gzdt.html">工作动态</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="py-3 px-1 my-shu-color my-display-none-sm">|</li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-3 px-0" href="./xyzc.html">校友之窗</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            (function(){
+                var downs=document.getElementsByClassName("down");
+                var caidans=document.getElementsByClassName("dropdown-menu");
+                for(var a=0;a<downs.length;a++){
+                    var down=downs[a];
+                    let caidan=caidans[a];
+                    down.onmousemove=caidan.onmousemove=function(){
+                        caidan.style.display="block";
+                    }
+                    down.onmouseout=caidan.onmouseout=function(){
+                        caidan.style.display="none";
+                    }
+                }
+            })()
+        </script>
+    </div>
+</div>
+<!--body-->
+<div class="container">
+    <!--banner-->
+    <img class="w-100" src="picture/xxxw/listbanner1.jpg" alt=""/>
+    <!--line1 标头-->
+    <div class="f1 row">
+        <!--left-->
+        <div class="col-lg-3 my-display-none-sm">
+            <h4 class="bg-ya-red text-white text-center mb-0">学校新闻</h4>
+        </div>
+        <!--right-->
+        <div class="right col-lg-9 col-sm-12">
+            <div class="d-flex justify-content-between">
+                <h6 class="mb-0 my-display-none-sm">学校动态</h6>
+                <div class="dropdown my-display-none-lg">
+                    <h6 class="mb-0 dropdown-toggle"  data-toggle="dropdown">学校动态</h6>
+                    <ul class="dropdown-menu m-0 p-0">
+                        <li><a class="py-3 px-0" href="./sjsz.html">视觉绍职</a></li>
+                        <li><a class="py-3 px-0" href="./mtbd.html">媒体报道</a></li>
+                        <li><a class="py-3 px-0" href="./wsjb.html">网上金榜</a></li>
+                        <li><a class="py-3 px-0" href="./tzgg.html">通知公告</a></li>
+                        <li><a class="py-3 px-0" href="./zbxx.html">招标信息</a></li>
+                        <li><a class="py-3 px-0" href="./kyjfgk.html">科研经费公开</a></li>
+                        <li><a class="py-3 px-0" href="./rczp.html">人才招聘</a></li>
+                    </ul>
+                </div>
+                <ul class="breadcrumb bg-white mt-2 mb-0 p-0">
+                    <li class="breadcrumb-item"><a href="./index.html">首页</a></li>
+                    <li class="breadcrumb-item"><a href="./xxjj.html">学校新闻</a></li>
+                    <li class="breadcrumb-item"><a href="./xxdt.html">学校动态</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--f2-->
+    <div class="f2 row">
+        <!--left-->
+        <div class="left col-lg-3 my-display-none-sm">
+            <ul class="pl-0">
+                <li class="checked"><a class="py-3 px-0" href="./xxdt.html">学校动态</a></li>
+                <li><a href="./sjsz.html">视觉绍职</a></li>
+                <li><a href="./mtbd.html">媒体报道</a></li>
+                <li><a href="./wsjb.html">网上金榜</a></li>
+                <li><a href="./tzgg.html">通知公告</a></li>
+                <li><a href="./zbxx.html">招标信息</a></li>
+                <li><a href="./kyjfgk.html">科研经费公开</a></li>
+                <li><a href="./rczp.html">人才招聘</a></li>
+            </ul>
+        </div>
+        <!--right-->
+        <div class="right col-lg-9 col-sm-12">
+            <!--内容主体-->
+            <div>
+                <ul class="pl-0 mb-0">
+                    <li class="d-flex justify-content-between w-100">
+                        <a class="w-75" href="#" target="_blank">【图文】订单班：定向培养 优质就业</a>
+                        <span>2019-05-05</span>
+                    </li>
+                    <li class="d-flex justify-content-between w-100">
+                        <a class="w-75" href="#" target="_blank">【商圣讲坛】“优秀学长进课堂”：分享成长正能量</a>
+                        <span>2019-05-05</span>
+                    </li>
+                    <li class="d-flex justify-content-between w-100">
+                        <a class="w-75" href="#" target="_blank">我们的多彩课堂</a>
+                        <span>2019-04-30</span>
+                    </li>
+                    <li class="d-flex justify-content-between w-100">
+                        <a class="w-75" href="#" target="_blank">【图文】我校开展团工作互观互检、互学互比活动</a>
+                        <span>2019-04-30</span>
+                    </li>
+                    <li class="d-flex justify-content-between w-100">
+                        <a class="w-75" href="#" target="_blank">【图文】越城区政协来校视察调研</a>
+                        <span>2019-04-29</span>
+                    </li>
+                    <li class="d-flex justify-content-between w-100">
+                        <a class="w-75" href="#" target="_blank">【图文】我校获省大学生程序设计竞赛“九连金”</a>
+                        <span>2019-04-28</span>
+                    </li>
+                    <li class="d-flex justify-content-between w-100">
+                        <a class="w-75" href="#" target="_blank">【图文】校男篮获CUBA东南赛区第三，进军全国总决赛</a>
+                        <span>2019-04-26</span>
+                    </li>
+                    <li class="d-flex justify-content-between w-100">
+                        <a class="w-75" href="#" target="_blank">【图文】高雅艺术进校园：与绍剧亲密接触</a>
+                        <span>2019-04-26</span>
+                    </li>
+                    <li class="d-flex justify-content-between w-100">
+                        <a class="w-75" href="#" target="_blank">【图文】弘扬范蠡思想 传承商圣文化</a>
+                        <span>2019-04-25</span>
+                    </li>
+                    <li class="d-flex justify-content-between w-100">
+                        <a class="w-75" href="#" target="_blank">【商圣论坛】王松泉教授谈“教学板书设计艺术”</a>
+                        <span>2019-04-25</span>
+                    </li>
+                    <li class="d-flex justify-content-between w-100">
+                        <a class="w-75" href="#" target="_blank">【商圣讲坛（62）】刘劲松博士谈“人工智能翻译”</a>
+                        <span>2019-04-25</span>
+                    </li>
+                    <li class="d-flex justify-content-between w-100">
+                        <a class="w-75" href="#" target="_blank">【和你畅谈（123）】分享《活着》，探讨生命的意义</a>
+                        <span>2019-04-25</span>
+                    </li>
+                    <li class="d-flex justify-content-between w-100">
+                        <a class="w-75" href="#" target="_blank">【图文】蚌埠市人大领导来我校考察调研</a>
+                        <span>2019-04-24</span>
+                    </li>
+                    <li class="d-flex justify-content-between w-100">
+                        <a class="w-75" href="#" target="_blank">【图文】订单班：定向培养 优质就业</a>
+                        <span>2019-04-23</span>
+                    </li>
+                    <li class="d-flex justify-content-between w-100">
+                        <a class="w-75" href="#" target="_blank">【图文】“越医文化传承实践基地”在我校成立</a>
+                        <span>2019-04-19</span>
+                    </li>
+                    <li class="d-flex justify-content-between w-100">
+                        <a class="w-75" href="#" target="_blank">【图文】我校男、女篮蝉联市大学生篮球联赛冠军</a>
+                        <span>2019-04-18</span>
+                    </li>
+                    <li class="d-flex justify-content-between w-100">
+                        <a class="w-75" href="#" target="_blank">【图文】市教育局来我校检查指导“五星达标”工作</a>
+                        <span>2019-04-16</span>
+                    </li>
+                    <li class="d-flex justify-content-between w-100">
+                        <a class="w-75" href="#" target="_blank">【图文】3400余名考生参加我校提前招生测评</a>
+                        <span>2019-04-15</span>
+                    </li>
+                    <li class="d-flex justify-content-between w-100">
+                        <a class="w-75" href="#" target="_blank">【图文】2019技术技能竞赛月暨社团文化节开幕</a>
+                        <span>2019-04-14</span>
+                    </li>
+                    <li class="d-flex justify-content-between w-100">
+                        <a class="w-75" href="#" target="_blank">【图文】我校成立早教专业建设指导委员会</a>
+                        <span>2019-04-12</span>
+                    </li>
+                </ul>
+            </div>
+            <!--分页-->
+            <ul class="pagination justify-content-end align-items-center mt-2">
+                <li><span>共2192条&nbsp;&nbsp;&nbsp;1/110</span></li>
+                <li class="page-item disabled ml-3">
+                    <a href="#" class="page-link">首页</a>
+                </li>
+                <li class="page-item disabled">
+                    <a href="#" class="page-link">上一页</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">下一页</a>
+                </li>
+                <li class="page-item">
+                    <a href="#" class="page-link">尾页</a>
+                </li>
+                <li class="ml-4 my-display-none-sm">
+                    <button>转到</button>
+                </li>
+                <li class="my-display-none-sm">
+                    <input class="w-50" type="text"/>页
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<footer>
+    <iframe src="footer.html" frameborder="0" scrolling="no" class="my_footer"></iframe>
+</footer>
+</body>
+</html>

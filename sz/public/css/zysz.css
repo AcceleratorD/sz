@@ -1,0 +1,27 @@
+.f2>.right>table{
+    margin:0 auto;
+}
+.f2>.right>table>caption{
+    text-align:center;
+    caption-side:top;
+    font-size: 24px;
+    color:#000;
+    font-weight: bold;
+}
+.f2>.right>table>tbody{
+    vertical-align: middle;
+}
+.f2>.right>table>tbody td{
+    text-align: center;
+    padding:5px 20px;
+    border:1px solid rgb(149, 207, 174);
+}
+.f2>.right>table>tbody>tr:first-child,
+.f2>.right>table>tbody>tr>td[rowspan]{
+    background:rgb(202, 241, 219);
+}
+.f2>.right>table>tbody>tr>td>a{color:#000;}
+.f2>.right>table>tbody>tr>td>div{
+    color:rgb(153, 153, 153);
+    padding:0 30px;
+}

@@ -1,0 +1,31 @@
+/*Ã½Ìå²éÑ¯*/
+@media screen and (min-width:992px){
+    .my_footer{height:16.7rem;}
+    .bg-checked{
+        border-top: 2px solid #ebb726;
+        background-color: #923331;
+    }
+    .my-display-none-lg{display:none;}
+}
+@media screen and (max-width:991px){
+    .my_footer{height:14rem;}
+    .my-display-none-sm{display:none;}
+}
+
+body{
+    margin: 0px;
+    padding:0px;
+    font-size: 14px;
+    font-family: Î¢ÈíÑÅºÚ, Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}
+li{list-style: none;}
+a:hover{text-decoration: none;}
+/*.my_footer,*/
+.my_footer{
+    width:100%;
+}
+/*±³¾°ÑÕÉ«*/
+.bg-hui{background: #eceff9;}
+.bg-ya-red{background-color:#712325;}   /*Ò³Í·¡¢Ò³½Å*/

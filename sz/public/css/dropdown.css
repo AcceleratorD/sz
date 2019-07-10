@@ -1,0 +1,39 @@
+/*f1*/
+.f1{margin-top:-10px;}
+.f1>div>h4{
+    line-height: 60px;
+}
+.f1>.right{
+    padding-top:20px;
+}
+.f1>.right>div{
+    border-bottom: 1px solid #e5e5e5;
+}
+.f1>.right>div>h6,
+.f1>.right>div>div>h6,
+.f1>.right>div>div.dropdown>ul>li>a{
+    color: #712325;
+    line-height:36px;
+}
+.f1>.right>div>div>h6{
+    cursor:pointer;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    content:">"
+}
+.f1>.right>div>ul a{color:#939393;}
+/*f2*/
+.f2>.left>ul{
+    border-left:5px solid #712325;;
+}
+.f2>.left>ul>li{
+    line-height: 36px;
+    border-bottom: 1px solid #e5e5e5;
+    border-left: 5px solid #fff;
+    font-size: 15px;
+    text-indent: 30px;
+}
+.f2>.left>ul>li>a{color: #504f4f;}
+.f2>.left>ul>li>a:hover{color:#ff7200;}
+.f2>.left>ul>.checked{border-left:5px solid #ffa200;}
+.f2>.left>ul>.checked>a{color:#ff7200;}

@@ -1,0 +1,48 @@
+/*header*/
+body>div{
+    width:100%;
+    background-image:linear-gradient(to bottom,#b9cbe3 0px,#fff 90px);
+}
+body>div>.container:before{
+    content:"";
+    display:table;
+}
+.body{
+    border:1px solid rgb(35,83,147);
+    border-radius:5px;
+    background-image:linear-gradient(to bottom,rgb(194,212,234) 0,rgb(150,182,221) 25%,rgb(131,165,211) 26%,rgb(131,165,211) 100%);
+}
+.right{
+    border:1px solid rgb(35,83,147);
+    border-radius:5px;
+    background-image:linear-gradient(to bottom,#fff 0%,rgb(229,241,253) 10%,rgb(219,232,248) 11%,#fff 50%,rgb(219,232,248) 89%,rgb(208,223,244) 90%,rgb(208,223,244) 100%);
+}
+/*表格主体*/
+table{margin:0 auto;}
+.right>table>thead>tr>td{
+    /*width:300px;*/
+    border-bottom:1px solid #2E65B5;
+}
+.right>table>thead h5{
+    font-weight:800;
+    color:#2E65B5;
+}
+.right>table>thead h5>span{
+    font-weight:600;
+    color:#96979B;
+}
+.right>table>tbody{
+    color:#11449E;
+    font-size: 12px;
+}
+a:hover{text-decoration:none;}
+input{
+    margin:7px 0;
+    line-height: normal;}
+/*footer*/
+.footer{
+    margin-top:50px;
+    font-size: 12px;
+    text-align: center;
+    color: #859CBD;
+}
